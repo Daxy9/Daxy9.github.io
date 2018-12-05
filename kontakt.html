@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pub pivski raj</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="shortcut icon" href="img/ikonica.ico"/>
+		<meta name="author" content="David Kostić"/>
+		<link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet"/>
+		 
+	</head>
+	<body>
+		<header>
+			<div class="okvir">
+				<div id="logo">
+					<a href="#" alt="Logo">
+						<img src="img/logo.png"/>
+					</a>
+				</div>
+				<div id="meni">
+					<ul>
+						<li><a href="index.html">Početna</a></li>
+						<li><a href="pivo.html">O Pivu</a></li>
+						<li><a href="klopa.html">Klopa</a></li>
+						<li><a href="cenovnik.html">Pivovnik</a></li>
+						<li class="aktivanLink"><a href="kontakt.html">Kontakt</a></li>
+						<li><a href="autor.html">O autoru</a></li>
+					</ul>
+				</div>
+				<div class="cleaner"></div>
+			</div>
+		</header>
+		
+		<div class="slajder"></div>
+		
+		<div id="kontaktStrana">
+			<div class="okvir">
+				<div class="kontaktSredina" id="levo">
+					<h1>Kontakt</h1>
+					<img src="img/mapa.png" alt="Mapa"/>
+					<h2>Posetite nas na adresi Pivska 15</h2>
+				</div>
+				<div class="kontaktSredina" id="formSekcija">
+					<h1>Online rezervacija</h1>
+					<form action="rez.php" method="POST" name="form" id="formaRez"></form>
+						<table border="1px">
+							<thead>
+								<th colspan="2"> Forma za rezervacije</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Ime i prezime:</td>
+									<td><input type="text" placeholder="Unesite ime i prezime"/></td>
+								</tr>
+								<tr>
+									<td>Email adresa:</td>
+									<td><input type="text" placeholder="Vaša email adresa"/></td>
+								</tr>
+								<tr>
+									<td>Broj mobilnog telefona:</td>
+									<td><input type="text" placeholder="Broj telefona"/></td>
+								</tr>
+								<tr>
+									<td>Broj ljudi za rezervaciju:</td>
+									<td>
+										<select id="brLjudi" name="brOsoba">
+											<option value="0">
+											Izaberite
+											</option>
+											<option value="1">
+											1
+											</option>
+											<option value="2">
+											2
+											</option>
+											<option value="3">
+											3
+											</option>
+											<option value="4">
+											4
+											</option>
+											<option value="5">
+											5
+											</option>
+											<option value="6">
+											6
+											</option>
+											<option value="7">
+											7
+											</option>
+											<option value="8">
+											8
+											</option>
+											<option value="9">
+											9
+											</option>
+											<option value="10">
+											10
+											</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<input type="reset" name="posalji" id="posalji"/>
+										<input type="submit" name="posalji" id="posalji" value="Posalji"/>
+									</td>
+								</tr>
+		
+							
+							</tbody>
+						</table>
+				</div>
+				<div class="cleaner"></div>
+			</div>
+		</div>
+		
+		
+		
+
+		
+		<footer>
+			<div class="okvir">
+				<section id="copyright">
+					<p>Copyright &copy; 2018. David Kostić</p>
+				</section>
+				<section class="soc">
+					<a href="https://www.facebook.com" id="klikFB" class="klik"></a>
+				</section>
+				<section class="soc">
+					<a href="https://www.instagram.com" id="klikIG" class="klik"></a>
+				</section>
+				<section class="soc">
+					<a href="https://twitter.com" id="klikTW" class="klik"></a>
+				</section>
+	
+				<div class="cleaner"></div>
+			</div>
+		</footer>
+		
+		
+		
+		
+		
+	</body>
+</html>
