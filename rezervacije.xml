@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="css/style.css" ?>
+
+<!DOCTYPE rezervacije[
+	<!ELEMENT rezervacije (rez+)>
+	<!ELEMENT rez(imeiprezime, email, telefon)>
+	<!ELEMENT imeiprezime(#PCDATA)>
+	<!ELEMENT email(#PCDATA)>
+	<!ELEMENT telefon(#PCDATA)>
+	
+	<!ATTLIST rez brOsoba (Izaberite|1|2|3|4|5|6|7|8|9|10)#REQUIRED>
+]>
+
+<rezervacije>
+	<rez brOsoba="4">
+		<imeiprezime>Marko Markovic</imeiprezime>
+		<email>marko@gmail.com</email>
+		<telefon>0621234567</telefon>
+	</rez>
+</rezervacije>
