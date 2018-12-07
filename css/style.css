@@ -157,6 +157,11 @@ footer{
 	float:left;
 	margin-top:45px;
 }
+.fa{
+	float:left;
+	margin-top:45px;
+	margin-left:5px;
+}
 .soc{
 	width:60px;
 	height:60px;
